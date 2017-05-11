@@ -2,13 +2,9 @@
 基于ThinkPHP3.2后台管理系统+BootStrap页面的IT新闻管理网站
 
 # Screenshot
-
-前台模块
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home.png)
-![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home2.png)
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home3.png)
-
-后台模块
+![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home2.png)
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home4.png)
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home5.png)
 
