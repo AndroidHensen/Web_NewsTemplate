@@ -1,0 +1,6 @@
+[ 2016-06-29T16:02:48+08:00 ] ::1 /WD/?m=admin&c=login&m=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载模块:Index
+

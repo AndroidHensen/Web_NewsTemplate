@@ -1,0 +1,12 @@
+[ 2016-11-01T16:08:02+08:00 ] 127.0.0.1 /WD/admin.php?m=ajaxuploadimage&&c=Image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:Ajaxuploadimage
+
+[ 2016-11-01T16:08:17+08:00 ] 127.0.0.1 /WD/admin.php?m=Image&&c=Image
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Image
+

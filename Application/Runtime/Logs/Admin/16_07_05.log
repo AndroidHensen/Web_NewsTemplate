@@ -1,0 +1,1706 @@
+[ 2016-07-05T11:08:45+08:00 ] ::1 /WD/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014348s ]
+NOTIC: [8] Undefined variable: module E:\Program Files\phpStudy\WWW\WD\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var E:\Program Files\phpStudy\WWW\WD\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given E:\Program Files\phpStudy\WWW\WD\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given E:\Program Files\phpStudy\WWW\WD\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2016-07-05T11:08:45+08:00 ] ::1 /WD/admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-07-05T11:08:46+08:00 ] ::1 /WD/admin.php?m=&&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-07-05T11:08:53+08:00 ] ::1 /WD/admin.php?c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-05T11:08:57+08:00 ] ::1 /WD/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.250084s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.250163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-07-05T11:09:02+08:00 ] ::1 /WD/admin.php?c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.061156s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.061227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-07-05T11:09:08+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-07-05T11:09:11+08:00 ] ::1 /WD/admin.php?c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.027617s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.027683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-07-05T11:12:00+08:00 ] ::1 /WD/admin.php?c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: admins E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.030918s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-07-05T11:12:02+08:00 ] ::1 /WD/admin.php?c=admin&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.042050s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.042114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2016-07-05T11:12:05+08:00 ] ::1 /WD/admin.php?c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: admins E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.040860s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.040950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-07-05T11:12:07+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-07-05T11:12:10+08:00 ] ::1 /WD/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0425s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0275s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-07-05T11:12:12+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-07-05T11:12:17+08:00 ] ::1 /WD/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0047s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-07-05T11:12:21+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-07-05T11:22:02+08:00 ] ::1 /WD/admin.php?c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: admins E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.031377s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.031441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-07-05T12:39:50+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-07-05T12:40:15+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2016-07-05T12:40:25+08:00 ] ::1 /WD/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2016-07-05T12:40:30+08:00 ] ::1 /WD/admin.php?c=position&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositionController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositionController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2016-07-05T12:40:32+08:00 ] ::1 /WD/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0066s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2016-07-05T12:40:35+08:00 ] ::1 /WD/admin.php?c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php 第 17 行.
+NOTIC: [8] Undefined index: catid E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0061s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php on line 26 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php on line 26 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php on line 26 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\NewsModel.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0288s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: catid E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 131 行.
+NOTIC: [8] Undefined index: catid E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 131 行.
+NOTIC: [8] Undefined index: catid E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 131 行.
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2016-07-05T12:40:38+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001552s ]
+
+[ 2016-07-05T12:40:48+08:00 ] ::1 /WD/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0230s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0067s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-07-05T12:40:51+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2016-07-05T12:41:04+08:00 ] ::1 /WD/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0064s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2016-07-05T12:41:07+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-07-05T12:43:12+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-07-05T12:43:41+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2016-07-05T12:43:46+08:00 ] ::1 /WD/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0066s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2016-07-05T12:44:13+08:00 ] ::1 /WD/admin.php?c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003933s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0243s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-07-05T12:44:16+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 93 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2016-07-05T12:45:05+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2016-07-05T12:45:28+08:00 ] ::1 /WD/admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-07-05T12:45:30+08:00 ] ::1 /WD/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-07-05T12:45:33+08:00 ] ::1 /WD/admin.php?c=basic&a=cache
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\96607e5f2f4cf54441a3bd1a2c95c551.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\96607e5f2f4cf54441a3bd1a2c95c551.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.068496s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.068589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-07-05T12:45:52+08:00 ] ::1 /WD/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-07-05T12:45:57+08:00 ] ::1 /WD/admin.php?c=basic&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0060s ]
+
+[ 2016-07-05T12:45:59+08:00 ] ::1 /WD/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-07-05T12:46:03+08:00 ] ::1 /WD/admin.php?c=basic&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0051s ]
+
+[ 2016-07-05T12:46:05+08:00 ] ::1 /WD/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2016-07-05T12:46:09+08:00 ] ::1 /WD/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-07-05T12:57:05+08:00 ] ::1 /WD/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-07-05T12:57:40+08:00 ] ::1 /WD/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2016-07-05T12:57:42+08:00 ] ::1 /WD/index.php?m=admin&c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0046s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-07-05T12:57:44+08:00 ] ::1 /WD/index.php?m=admin&c=position&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositionController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositionController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2016-07-05T12:57:45+08:00 ] ::1 /WD/index.php?m=admin&c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php 第 17 行.
+NOTIC: [8] Undefined index: catid E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php on line 26 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php on line 26 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php on line 26 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php 第 29 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\ContentController.class.php 第 30 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\NewsModel.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc,news_id desc LIMIT 0,3   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: catid E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 131 行.
+NOTIC: [8] Undefined index: catid E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 131 行.
+NOTIC: [8] Undefined index: catid E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 131 行.
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\ccc9ced3ad798311a07cb47b740981c5.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-07-05T12:57:47+08:00 ] ::1 /WD/index.php?m=admin&c=menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\MenuController.class.php 第 28 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\MenuController.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc,menu_id desc LIMIT 0,3   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2016-07-05T12:57:49+08:00 ] ::1 /WD/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.028049s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.028124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-07-05T12:57:52+08:00 ] ::1 /WD/index.php?m=admin&c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: admins E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.029554s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.029615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-07-05T22:36:38+08:00 ] ::1 /WD/index.php?m=admin&c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: MySQL server has gone away E:\Program Files\phpStudy\WWW\WD\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+NOTIC: [2] PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: Error while reading greeting packet. PID=2272 E:\Program Files\phpStudy\WWW\WD\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-07-05T22:36:58+08:00 ] ::1 /WD/index.php?m=admin&c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-07-05T22:36:59+08:00 ] 127.0.0.1 /WD/index.php?m=admin&c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-07-05T22:37:02+08:00 ] 127.0.0.1 /WD/index.php?m=admin&c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0076s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2016-07-05T22:37:05+08:00 ] 127.0.0.1 /WD/index.php?m=admin&c=position&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositionController.class.php 第 11 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositionController.class.php 第 12 行.
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2016-07-05T22:37:09+08:00 ] 127.0.0.1 /WD/index.php?m=admin&c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 94 行.
+NOTIC: [8] Undefined variable: type E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\bb97361d9e4731aec48331de29e1c4d1.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2016-07-05T22:37:11+08:00 ] 127.0.0.1 /WD/index.php?m=admin&c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: admins E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.028974s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.029034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-07-05T22:37:13+08:00 ] 127.0.0.1 /WD/index.php?m=admin&c=positioncontent&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2048] Declaration of Common\Model\PositionModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositions(), called in E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php on line 13 and defined E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: page E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 18 行.
+NOTIC: [8] Undefined variable: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionModel.class.php 第 19 行.
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 15 行.
+NOTIC: [8] Undefined index: position_id E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 19 行.
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 21 行.
+NOTIC: [8] Undefined index: pageSize E:\Program Files\phpStudy\WWW\WD\Application\Admin\Controller\PositioncontentController.class.php 第 22 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 AND `status` <> -1 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: title E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b8a8b9d170e6c07d7b463ea02385894d.php 第 131 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-07-05T22:37:15+08:00 ] 127.0.0.1 /WD/index.php?m=admin&c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: admins E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.031470s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.031550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+

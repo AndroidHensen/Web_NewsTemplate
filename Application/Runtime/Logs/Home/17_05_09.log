@@ -1,0 +1,325 @@
+[ 2017-05-09T18:05:51+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('22','27','24','23','21')  [ RunTime:0.0013s ]
+
+[ 2017-05-09T18:06:03+08:00 ] ::1 /index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 5 ORDER BY listorder desc,id desc LIMIT 10,10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CatController.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 3 ORDER BY listorder desc,news_id desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' AND `catid` = 3 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2017-05-09T18:06:04+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+
+[ 2017-05-09T18:06:07+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('22','27','24','23','21')  [ RunTime:0.0016s ]
+
+[ 2017-05-09T18:06:08+08:00 ] ::1 /index.php?c=cat&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( menu_id=12 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 5 ORDER BY listorder desc,id desc LIMIT 10,10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CatController.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 12 ORDER BY listorder desc,news_id desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' AND `catid` = 12 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002235s ]
+
+[ 2017-05-09T18:06:08+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+
+[ 2017-05-09T18:06:10+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('22','27','24','23','21')  [ RunTime:0.0013s ]
+
+[ 2017-05-09T18:07:48+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0017s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 12 ORDER BY listorder desc,id desc LIMIT 0,1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 3 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 5 ORDER BY listorder desc,id desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0208s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\MenuModel.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 94 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-05-09T18:07:49+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `cms_news` WHERE `news_id` IN ('22','27','24','23','21')  [ RunTime:0.0013s ]
+
+[ 2017-05-09T18:07:56+08:00 ] ::1 /index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( menu_id=3 ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 5 ORDER BY listorder desc,id desc LIMIT 10,10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CatController.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 3 ORDER BY listorder desc,news_id desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' AND `catid` = 3 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2017-05-09T18:07:56+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+
+[ 2017-05-09T18:07:59+08:00 ] ::1 /index.php?c=cat&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( menu_id=12 ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 5 ORDER BY listorder desc,id desc LIMIT 10,10   [ RunTime:0.0013s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CatController.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 12 ORDER BY listorder desc,news_id desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' AND `catid` = 12 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0011s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002251s ]
+
+[ 2017-05-09T18:07:59+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+
+[ 2017-05-09T18:08:01+08:00 ] ::1 /index.php?c=cat&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\MenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( menu_id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 5 ORDER BY listorder desc,id desc LIMIT 10,10   [ RunTime:0.0011s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\NewsModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: p E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CatController.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 AND `thumb` <> '' AND `catid` = 8 ORDER BY listorder desc,news_id desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' AND `catid` = 8 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Common\Model\BasicModel.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001585s ]
+
+[ 2017-05-09T18:08:01+08:00 ] ::1 /index.php?c=index&a=getCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\TP_imooc_me\Application\Home\Controller\CommonController.class.php 第 36 行.
+

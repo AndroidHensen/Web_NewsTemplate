@@ -1,0 +1,55 @@
+<include file="Index/header"/>
+<body>
+<div id="wrapper">
+
+    <include file="Index/nav"/>
+    <div id="page-wrapper">
+
+        <div class="container-fluid">
+
+            <!-- Page Heading -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <ol class="breadcrumb">
+                        <li>
+                            <i class="fa fa-dashboard"></i> <a href="/admin.php?c=basic">基本管理</a>
+                        </li>
+                        <li class="active">
+                            <i class="fa fa-table"></i>缓存配置
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <include file="Basic/button"/>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="inputname" class="control-label">更新首页缓存:</label>
+                        <button type="button" class="btn-warning" id="cache-index">立即更新</button>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<script>
+    $("#cache-index").click(function () {
+        var url = '/index.php?c=index&a=build_html';
+        var jump_url = '/admin.php?c=basic&a=cache';
+        var postData = {};
+        $.post(url, postData, function (result) {
+            if (result.status == 1) {
+                return dialog.success(result.message, jump_url);
+            } else if (result.status == 0) {
+                return dialog.error(result.message);
+            }
+        }, "JSON");
+    });
+</script>
+<include file="Index/footer"/>

@@ -1,0 +1,42 @@
+[ 2016-11-01T16:04:09+08:00 ] 127.0.0.1 /WD/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020396s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with that of Think\Controller::error() E:\Program Files\phpStudy\WWW\WD\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\NewsModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0782s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0430s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\PositionContentModel.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 12 ORDER BY listorder desc,id desc LIMIT 0,10   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 3 ORDER BY listorder desc,id desc LIMIT 0,3   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 AND `thumb` <> '' ORDER BY news_id desc LIMIT 30   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `status` <> -1 AND `position_id` = 5 ORDER BY listorder desc,id desc LIMIT 0,30   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.056221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.056413s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with that of Think\Model::save() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 28 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with that of Think\Model::select() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\BasicModel.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0331s ]
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with that of Think\Model::find() E:\Program Files\phpStudy\WWW\WD\Application\Common\Model\MenuModel.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+NOTIC: [8] Undefined index: name E:\Program Files\phpStudy\WWW\WD\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.354306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.354429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011367s ]
+

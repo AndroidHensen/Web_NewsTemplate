@@ -1,0 +1,22 @@
+<include file="Index/header" />
+<?php $vo = $result['news'];?>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-md-9">
+
+					<div class="news-detail">
+						<h2>{$vo.title}</h2>
+						<h5 style="color: #666;">发布日期：{$vo.create_time|date="Y-m-d H:i:s",###}&nbsp&nbsp&nbsp来源：{$vo.copyfrom|getCopyFromById}&nbsp&nbsp&nbsp点击：{$vo.count}</h5>
+						{$vo.content}
+					</div>
+					
+				</div>
+
+				<include file="Index/right" />
+				<!-- end right-->
+			</div>
+		</div>
+	</section>
+
+<include file="Index/footer" />
