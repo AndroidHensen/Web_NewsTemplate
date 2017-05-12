@@ -3,8 +3,9 @@
 
 # Screenshot
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home.png)
-![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home3.png)
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home2.png)
+![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home3.png)
+![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home6.png)
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home4.png)
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home5.png)
 
