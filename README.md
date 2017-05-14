@@ -9,6 +9,19 @@
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home4.png)
 ![](https://github.com/AndroidHensen/NewsTemplate/blob/master/preview/perview-home5.png)
 
+# Features
+1. uploadify.js插件：上传文件
+2. Layer.js插件：弹出对话框
+3. Crontab执行ThinkPHP静态化页面更新
+4. Crontab执行数据库备份
+5. 账号admin拥有用户管理模块
+
+# Usage
+1. 在mySql执行imooc_singcms.sql文件
+2. 配置Application/Common/Common/function.php中数据库信息
+3. 运行根目录下的admin.php
+4. 账号：admin，密码：123456
+
 # Notice
 请不要把作品当商务使用，这里只是当练手项目使用
 
