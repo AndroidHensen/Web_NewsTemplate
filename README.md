@@ -12,12 +12,13 @@
 # Features
 1. uploadify.js上传文件
 2. Layer.js弹出对话框
+2. kindeditor.js文本编辑器
 3. Crontab执行ThinkPHP静态化页面更新
 4. Crontab执行数据库备份
 5. 账号admin拥有用户管理模块
 
 # Usage
-1. 启动PHPStudy
+1. 启动PHPStudy，设置网站目录到此目录下
 1. 在mySql执行imooc_singcms.sql文件
 2. 配置Application/Common/Common/function.php中数据库信息
 3. 运行根目录下的admin.php
